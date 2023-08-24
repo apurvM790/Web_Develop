@@ -1,0 +1,36 @@
+#container{
+    background-image: linear-gradient( #fc5c7d, #6a82fb);
+    padding:14%;
+    /* border-radius: 10%; */
+    /* background-image: linear-gradient(red, yellow); */
+    text-align: center;
+}
+
+#counter{
+    font-weight: bolder;
+    /* background-image: linear-gradient(rgb(0, 128, 90), rgb(128, 255, 0),rgb(255, 0, 195)); */
+    color: black;
+    padding: 1%;
+    background: rgb(8,195,203);
+    background: linear-gradient(78deg, rgba(8,195,203,0.9332983193277311) 0%, rgba(31,94,165,0.8744747899159664) 100%);
+}
+
+#increment,#decrement,#reset{
+    margin: 2%;
+}
+
+
+#increment:hover {
+    background-image: linear-gradient(45deg, red, blue);
+    color: rgb(128, 255, 0);
+}
+
+#reset:hover {
+    background: linear-gradient(135deg, orange 60%, cyan);
+    color: black;
+}
+
+#decrement:hover {
+    background-image: linear-gradient(45deg, red, blue);
+    color: rgb(128, 255, 0);
+}
